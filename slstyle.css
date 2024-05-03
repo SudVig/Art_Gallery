@@ -1,0 +1,67 @@
+body{
+background:url(bgsu.jpg)no-repeat;
+background-size:100% 1000px;
+}
+.box{
+background-color:white;
+position:absolute;
+top:10%;
+left:15%;
+padding:70px 40px;
+border-radius:20px;
+}
+.box1{
+background-color:white;
+position:absolute;
+top:10%;
+left:15%;
+padding:70px 40px;
+border-radius:20px;
+}
+.user{
+width:100px;
+height:100px;
+position:absolute;
+top:-50px;
+left:calc(50% - 50px);
+}
+h1{
+margin:0;
+padding:0 0 20px;
+text-align:center;
+}
+p{
+color:#ff8533;
+font-size:15px;
+font-weight: bold;
+}
+input{
+width:100%;
+margin-bottom:0px;
+}
+input[type="text"], input[type="password"], input[type="email"]{
+border:none;
+outline:none;
+font-size:15px;
+}
+input[type="submit"]{
+border: none;
+outline:none;
+height:40px;
+color:#fff;
+background:#2196f3;
+font-size:18px;
+border-radius:20px;
+}
+input[type="submit"]:hover{
+cursor:pointer;
+background:#0097a7;
+}
+a{
+text-decoration:none;
+font-size:15px;
+line-height:20px;
+}
+a:hover{
+color:red;
+}

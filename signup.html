@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Sign up</title>
+<link rel="stylesheet" type="text/css" href="slstyle.css">
+</head>
+<body>
+<div class="box"> 
+<img src="user.png" class="user">
+<h1>Sign Up</h1>
+<form name="form1" method="POST" action="signup.php">
+<p> User Name</p>
+<input type ="text" name = "name" placeholder = "Enter user name" required= " " autocomplete="off" maxlength="20">
+
+
+<p> Email</p>
+<input type ="Email" name = "email" placeholder = "Enter email  id" required= " " autocomplete="off" maxlength="40">
+<p>Are you an Artist?</p>
+
+<select name="choice" style="padding-left:10px;">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+</select>
+
+<p> Contact no.</p>
+<input type ="text" name = "phnno" placeholder = "Enter contact no." required= " " autocomplete="off" maxlength="10">
+
+<p> Address</p>
+<input type ="text" name = "address" placeholder = "Enter address" required= " " autocomplete="off" maxlength="50">
+
+
+<p> Password</p>
+<input type ="password" name = "pass" placeholder = "Enter the password" required= " " autocomplete="off" maxlength="20">
+
+<p> Retype password</p>
+<input type ="password" name = "pass1" placeholder = "Retype the password" required= " " autocomplete="off" maxlength="20">
+<br><br>
+
+<input type ="submit" value ="sign up">
+<br><br>
+
+<a href="login.html"> Existing user, Login!</a>
+</form>
+</div>
+</body>
+</html>

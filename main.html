@@ -1,0 +1,231 @@
+<html>
+<head>
+
+<style>     
+body{
+background-color:black;
+ 
+
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+   background-color: black;
+  border: none;
+  color: white;
+
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.button1:hover {
+  opacity: 0.6
+}
+
+.button2 {
+   background-color:  black;
+  border: none;
+  color: white;
+	
+  text-align: center;
+  font-size: 16px;
+ 
+  transition: 0.3s;
+}
+.button2:hover {
+  opacity: 0.6
+}
+.button3 {
+   background-color:  black;
+  border: none;
+  color: white;
+
+  text-align: center;
+  font-size: 16px;
+
+ 
+  transition: 0.3s;
+}
+
+.button3:hover {
+  opacity: 0.6
+}
+
+.button4 {
+    background-color:  black;
+  border: none;
+  color: white;
+ 
+  text-align: center;
+  font-size: 16px;
+
+   transition: 0.3s;
+}
+
+.button4:hover {
+ opacity: 0.6
+}
+.button5 {
+  background-color:  black;
+  border: none;
+  color: white;
+	position:absolute;
+  text-align: center;
+  font-size: 16px;
+  left:calc(50% - 185px);
+
+ 
+  transition: 0.3s;
+}
+
+.button5:hover {
+  opacity: 0.6
+}
+
+.button6 {
+  background-color:white  ;
+  border: none;
+  color: black;
+  margin-bottom:200px;
+	margin-left:900px;
+  text-align: center;
+  font-size: 16px;
+position:absolute; 
+top:0; 
+bottom:20s;
+right:0;
+transition: 0.3s;
+}
+
+.button6:hover {
+  opacity: 0.6
+}
+.button7 {
+  background-color: black ;
+  border: none;
+  color: white;
+  margin-bottom:200px;
+	margin-left:0px;
+  text-align: center;
+  font-size: 16px;
+position:absolute; 
+top:408px; 
+right:0px;
+bottom:20s;
+left:calc(50% - 70px);
+  transition: 0.3s;
+}
+
+.button7:hover {
+  opacity: 0.6
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {opacity:0.6}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.slide {
+width:100%;
+height:400px;
+postion:absolute;
+background-color:white;
+padding-bottom:0;
+
+top:50%;
+left:50%;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+  background-image:url("img/img1.jpg");
+  animation: slider 10s infinite linear; 
+}
+@keyframes slider{
+0%{background-image:url("img/img1.jpg");}
+25%{background-image:url("img/img1.jpg");}'
+50%{background-image:url("img/img2.jpg");}
+75%{background-image:url("img/img3.jpg");}
+100%{background-image:url("img/img4.jpg");}
+}
+.tabs a{
+color: white;
+text-decoration: none;
+padding:12px 20px; 
+font-family:tahoma;
+}
+.tabs a:hover {
+opacity: 0.6;
+}
+::-webkit-scrollbar{display:none;}
+</style>
+<body>
+<div class='s'>
+<div class="slide">
+</div>
+<div class="tabs"  style="background-color:black; width: 100%;">
+
+	<a href='myprofile.php' > My Profile</a>
+
+	<a href='home.php' target="frm"> Home</a>
+	<div class="dropdown">
+		<button class="button button2" style="border-left:0px;" >Arts </button>
+		<div class="dropdown-content">
+				<a href="arts/paintings.php" target= "frm" >Paintings</a>
+				<a href="arts/drawings.php"target= "frm">Drawings</a>
+				<a href="arts/Photographs.php"target= "frm">Photographs</a>
+			</div>
+	</div>
+	
+	<div class="dropdown">
+		<a href='competition/competition.php' target="frm" >Competition</a>
+
+	</div>
+
+		<a href='aboutus.html' target="frm">About Us</a>
+		
+		<a href='contact.php' target="frm">Contact Us</a>
+	<a href='login.html' style="position:absolute;top:412px;left:calc(100% - 120px);">SignOut</a>		
+	</div>	
+
+</div>
+<iframe name="frm" src="home.php" style="border:none;width: 100%; height:100%;" ></iframe>
+</div>
+</body>
+</head>
+</html>
