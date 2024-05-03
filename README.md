@@ -35,6 +35,9 @@ The Online Art Gallery is a web-based platform designed to connect artists, art 
    [git clone https://github.com/your-username/your-project.git](https://github.com/SudVig/Art_Gallery.git)
    ```
 
+   ![Screenshot (65)](https://github.com/SudVig/Art_Gallery/assets/96943194/e1933527-efe5-482f-b21a-0c9e6c67d00a)
+
+
 3. **Start XAMPP:**
    - Open XAMPP Control Panel.
    - Start Apache and MySQL services.
